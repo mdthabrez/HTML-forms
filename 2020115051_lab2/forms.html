@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FORMS HTML PAGE</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="G Mohammed Thabrez (2020115051)" />
+        <meta name="language" content="EN"/>
+	
+        <style>
+            label{
+                color:black;
+                margin-left: 5px;
+            }
+            h2{
+                color:crimson;
+            }
+            h3{
+                color:cornflowerblue;
+            }
+            input{
+                
+                margin-left: 40px;
+            }
+            header{
+                text-align: center;
+            }
+            body{background-color:antiquewhite;}
+        </style>
+    </head>
+	
+    <body>
+        
+        <header>
+            <h1><u>Indian Chai</u></h1>
+            <h2>11:00 am - 04:00 pm</h2>
+        </header>
+    
+
+    <form action="#">
+        <fieldset>
+            <legend><h2>Order Information :</h2></legend>
+        <h2>Sandwiches</h2>
+        <h3>Monday</h3>
+        <input type="radio" id="veg" name="sandwiches" value="Veg Sandwich">
+        <label for="veg" >Veg Sandwich</label>
+        <br>
+        <input type="radio" id="nonveg" name="sandwiches" value="Non-Veg Sandwich">
+        <label for="nonveg" >Non-Veg Sandwich</label>
+        <br>
+        <h3>Tuesday</h3>
+        <input type="radio" id="vegchiily" name="sandwiches" value="Veg Chilly Sandwich">
+        <label for="vegchiily" >Veg Chilly Sandwich</label>
+        <br>
+        <input type="radio" id="chillychicken" name="sandwiches" value="Chilly Chicken Sandwich">
+        <label for="chillychicken" >Chilly Chicken Sandwich</label>
+        <br>
+        <h3>Wednesday</h3>
+        <input type="radio" id="freshpaneer" name="sandwiches" value="Fresh Paneer Sandwich">
+        <label for="freshpaneer" >Fresh Paneer Sandwich</label>
+        <br>
+        <input type="radio" id="mayocorn" name="sandwiches" value="Mayo Corn Sandwich">
+        <label for="mayocorn" >Mayo Corn Sandwich</label>
+        <br>
+        <h3>Thursday</h3>
+        <input type="radio" id="grilledbarbeque" name="sandwiches" value="Grilled Barbeque Toast">
+        <label for="grilledbarbeque" >Grilled Barbeque Toast</label>
+        <br>
+        <input type="radio" id="cheese" name="sandwiches" value="Cheese Sandwich">
+        <label for="cheese" >Cheese Sandwich</label>
+        <br>
+        <h3>Friday</h3>
+        <input type="radio" id="aloobhujia" name="sandwiches" value="Aloo Bhujia Sandwich">
+        <label for="aloobhujia" >Aloo Bhujia Sandwich</label>
+        <br>
+        <input type="radio" id="chocolate" name="sandwiches" value="Chocolate Sandwich">
+        <label for="chocolate" >Chocolate Sandwich</label>
+        <br>
+        <h3>Saturday</h3>
+        <input type="radio" id="mushroom" name="sandwiches" value="Mushroom Sandwich">
+        <label for="mushroom" >Mushroom Sandwich</label>
+        <br>
+        <input type="radio" id="grilledmexican" name="sandwiches" value="Grilled Mexican Toast">
+        <label for="grilledmexican" >Grilled Mexican Toast</label>
+        <br>
+        <h3>Sunday</h3>
+        <input type="radio" id="spicychicken" name="sandwiches" value="Spicy Chicken Sandwich">
+        <label for="spicychicken" >Spicy Chicken Sandwich</label>
+        <br>
+        <input type="radio" id="spicypaneer" name="sandwiches" value="Spicy Paneer Sandwich">
+        <label for="spicypaneer" >Spicy Paneer Sandwich</label>
+    
+	
+    <br>
+    
+    <h2>Snacks</h2>
+    
+        <input type="radio" id="aloosamosa" name="snacks" value="Aloo Samosa">
+        <label for="aloosamosa" >Aloo Samosa</label>
+        <br> 
+        <input type="radio" id="sambarvada" name="snacks" value="Sambar Vada">
+        <label for="sambarvada" >Sambar Vada</label>
+        <br>
+        <input type="radio" id="bajji" name="snacks" value="Bajji">
+        <label for="bajji" >Bajji</label>
+        <br>
+        <input type="radio" id="bonda" name="snacks" value="Bonda">
+        <label for="bonda" >Bonda</label>
+    
+    
+    <br>
+    
+    <h2>Drinks</h2>
+
+        <label for="Drinks" >Choose Your Drink:  </label>
+        <select id="Drinks" name="Drinks">
+            <optgroup label="Black Chai">
+                <option value="Lemon Chai">Lemon Chai</option>
+                <option value="Ginger Lemon Chai">Ginger Lemon Chai</option>
+                <option value="Sulaimani Chai">Sulaimani Chai</option>
+                <option value="Gol Mirch Chai">Gol Mirch Chai</option>
+            </optgroup>
+            <optgroup label="Herbal Chai">
+                <option value="Hibiscus Chai">Hibiscus Chai</option>
+                <option value="Green Chai">Green Chai</option>
+                <option value="Jasmine Chai">Jasmine Chai</option>
+                <option value="Tulsi Chai">Tulsi Chai</option>
+                <option value="Turmeric Spiced Chai">Turmeric Spiced Chai</option>
+            </optgroup>
+            <optgroup label="Coffee">
+                <option value="Black Coffee">Black Coffee</option>
+                <option value="Cafe Latte">Cafe Latte</option>               
+            </optgroup>
+        </select>
+        <br>
+        <input type="checkbox" id="largedrink" name="largedrink" value="largedrink">
+        <label for="largedrink">Large Drink (Extra Rs.20)</label><br>
+    </fieldset>
+    </form>
+    
+    <br>
+
+    <form action="#">
+        <fieldset>
+         <legend><h2>Delivery Details :</h2></legend>
+         <label for="fname">First name:</label>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="lname">Last name:</label>
+         <input type="text" id="lname" name="lname"><br>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email"><br><br>
+         <input type="radio" id="here" name="." value="here">
+        <label for="here" >here</label>
+        <br> 
+        <input type="radio" id="parcel" name="parcel" value="parcel">
+        <label for="parcel" >Parcel</label>
+        <br>
+         <label for="address">Address:</label>
+         <input type="text" id="address" name="address"><br>
+         <label for="branch">Choose your branch:</label>
+         <select name="branch" id="branch">
+            <option value="mylapore">Mylapore</option>
+            <option value="parryscorner">Parry's Corner</option>
+         </select><br><br>
+         <input type="submit" value="Submit">
+        </fieldset>
+       </form>
+
+	<footer> <br> <a href="mailto:indianchai@gmail.com"> &#9743; Click here to send mail to IndianChai</a></footer> 
+  </body>
+</html>
+            
